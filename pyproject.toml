@@ -3,14 +3,19 @@ name = "mobile-analytics"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Alexis",email = "oleksii.tomin@gmail.com"}
+    {name = "Alexis", email = "oleksii.tomin@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-]
-
+dependencies = []
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "mobile-analytics"
+version = "0.1.0"
+description = ""
+authors = ["Alexis <oleksii.tomin@gmail.com>"]
+package-mode = false
